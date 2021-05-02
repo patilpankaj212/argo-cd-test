@@ -4,7 +4,7 @@ metadata:
   name: argo-test-service
   labels:
     app: nginx
-  namespace: default
+  namespace: argocd
 spec:
   type: NodePort
   ports:
